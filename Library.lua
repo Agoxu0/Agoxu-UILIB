@@ -29,7 +29,7 @@ function Library:CreateWindow(Name)
 	GUI["4"]["RichText"] = true;
 	GUI["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 	-- GUI["4"]["FontFace"] = ;
-	GUI["4"]["TextSize"] = 18;
+	GUI["4"]["TextSize"] = 12;
 	GUI["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 	GUI["4"]["Size"] = UDim2.new(0.75, 0, 1, 0);
 	GUI["4"]["Text"] = Name;
@@ -192,7 +192,7 @@ function Library:CreateWindow(Name)
 		Button["1a"]["RichText"] = true;
 		Button["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 		-- Button["1a"]["FontFace"] = ;
-		Button["1a"]["TextSize"] = 14;
+		Button["1a"]["TextSize"] = 12;
 		Button["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 		Button["1a"]["AnchorPoint"] = Vector2.new(1, 0);
 		Button["1a"]["Size"] = UDim2.new(1, -43, 1, 0);
@@ -248,7 +248,7 @@ function Library:CreateWindow(Name)
 		TextBox["e"] = Instance.new("TextBox", TextBox["b"]);
 		TextBox["e"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 		TextBox["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-		TextBox["e"]["TextSize"] = 14;
+		TextBox["e"]["TextSize"] = 12;
 		TextBox["e"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
 		-- TextBox["e"]["FontFace"] = ;
 		TextBox["e"]["AnchorPoint"] = Vector2.new(1, 0.5);
@@ -266,7 +266,7 @@ function Library:CreateWindow(Name)
 		TextBox["10"]["RichText"] = true;
 		TextBox["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 		-- TextBox["10"]["FontFace"] = ;
-		TextBox["10"]["TextSize"] = 14;
+		TextBox["10"]["TextSize"] = 12;
 		TextBox["10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 		TextBox["10"]["Size"] = UDim2.new(0.5, 0, 1, 0);
 		TextBox["10"]["Text"] = [[Title]];
@@ -294,7 +294,7 @@ function Library:CreateWindow(Name)
 		Label["12"]["BackgroundColor3"] = Color3.fromRGB(48, 48, 48);
 		-- Label["12"]["FontFace"] = ;
 		Label["12"]["Selectable"] = true;
-		Label["12"]["TextSize"] = 16;
+		Label["12"]["TextSize"] = 12;
 		Label["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 		Label["12"]["Visible"] = true;
 		Label["12"]["Size"] = UDim2.new(1, -10, 0, 40);
@@ -359,11 +359,11 @@ function Library:CreateWindow(Name)
 		Toggle["21"]["RichText"] = true;
 		Toggle["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 		-- Toggle["21"]["FontFace"] = ;
-		Toggle["21"]["TextSize"] = 16;
+		Toggle["21"]["TextSize"] = 12;
 		Toggle["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 		Toggle["21"]["AnchorPoint"] = Vector2.new(1, 0);
 		Toggle["21"]["Size"] = UDim2.new(1, -36, 1, 0);
-		Toggle["21"]["Text"] = [[Title]];
+		Toggle["21"]["Text"] = Name;
 		Toggle["21"]["Name"] = [[Title]];
 		Toggle["21"]["Font"] = Enum.Font.Unknown;
 		Toggle["21"]["BackgroundTransparency"] = 1;
