@@ -11,7 +11,7 @@ Quick Library
 
 Quick Example How To Use It.
 ```lua
-local library = loadstring(game:HttpGet(""))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Agoxu0/Agoxu-UILIB/main/Library.lua"))()
 local main = library:CreateWindow("The Title!")
 local button = main:CreateButton("The Button!",function()
     print("Pressed!")
