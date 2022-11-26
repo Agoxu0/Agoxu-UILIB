@@ -24,4 +24,7 @@ local toggle = main:CreateToggle("Toggle!",function(bool)
 end)
 local label = main:CreateLabel("Label!")
 ```
-!(Images./image_2022-11-26_153807785.png)
+Closed:
+![image](https://raw.githubusercontent.com/Agoxu0/Agoxu-UILIB/main/Images./image_2022-11-26_153807785.png)
+Open:
+![image](https://raw.githubusercontent.com/Agoxu0/Agoxu-UILIB/main/Images./image_2022-11-26_153825218.png)
