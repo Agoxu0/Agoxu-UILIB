@@ -1,4 +1,5 @@
 This it UI Library that i made in some days. Im not such a lua scripter so it was a bit hard for me. I hope you will like it!
+Oh. And if you think this library is kinda empty, then go ahead and message me on discord what should i add!
 
 Quick Library
 ```lua
