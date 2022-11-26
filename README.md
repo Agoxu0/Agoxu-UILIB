@@ -24,3 +24,4 @@ local toggle = main:CreateToggle("Toggle!",function(bool)
 end)
 local label = main:CreateLabel("Label!")
 ```
+!(Images./image_2022-11-26_153807785.png)
