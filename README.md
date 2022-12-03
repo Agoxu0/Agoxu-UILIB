@@ -15,16 +15,16 @@ Quick Example How To Use It.
 ```lua
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Agoxu0/Agoxu-UILIB/main/Library.lua"))() -- Gets the library.
 local main = library:CreateWindow("The Title!") -- Creates the window
-local button = main:CreateButton("Button!",function() -- Creates the button
+main:CreateButton("Button!",function() -- Creates the button
     print("Pressed!")
 end)
-local textbox = main:CreateTextBox("TextBox!",function(text) -- Creates the textbox
+main:CreateTextBox("TextBox!",function(text) -- Creates the textbox
     print(text)
 end)
-local toggle = main:CreateToggle("Toggle!",function(bool) -- Creates the toggle
+main:CreateToggle("Toggle!",function(bool) -- Creates the toggle
     print(bool)
 end)
-local label = main:CreateLabel("Label!") -- Creates the label
+main:CreateLabel("Label!") -- Creates the label
 ```
 Closed:
 
